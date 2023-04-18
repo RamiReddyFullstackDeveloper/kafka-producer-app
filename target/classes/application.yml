@@ -1,0 +1,10 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /kafka/springboot
+spring:
+  application:
+    name: Apache Kafka Producer
+  profiles:
+    active: local
+
